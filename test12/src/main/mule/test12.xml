@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	</http:listener-config>
 	<flow name="test12Flow" doc:id="e29a44b1-465e-4d30-b6ca-299e55ff927a" >
 		<http:listener doc:name="Listener" doc:id="d8f33c02-100b-4349-855b-f187cfc1c7fd" config-ref="HTTP_Listener_config" path="/test12"/>
-		<logger level="INFO" doc:name="Logger" doc:id="39fa0173-b0fb-4d1c-91a9-d34847f7e060" />
+		<logger level="INFO" doc:name="Logger-git" doc:id="39fa0173-b0fb-4d1c-91a9-d34847f7e060" />
 		<ee:transform doc:name="Transform Message" doc:id="5f0fa38f-42ee-4142-b56b-dcc48449d1de" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
